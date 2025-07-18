@@ -1,0 +1,15 @@
+def start():
+    print('1. kg to lbs')
+    print('2. lbs to kg')
+
+choice = input('select 1 or 2: ')
+res = ''
+if choice == '1':
+    kg = float(input('Enter kg: '))
+    lbs = kg * 2.2
+    print(f'{kg} kg = {lbs} lbs')
+
+elif choice == '2':
+    lbs = float(input('Enter lbs: '))
+    kg = lbs / 2.2
+    print(f'{lbs} lbs = {kg} kg')
