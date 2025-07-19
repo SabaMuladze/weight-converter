@@ -6,11 +6,13 @@ def convert():
         kg = float(input('Enter kg: '))
         lbs = round(kg *  2.205,2) 
         print(f'{kg} kg ≈ {lbs} lbs')
+        print('Result is rounded to two demicals')
 
     elif choice == '2':
         lbs = float(input('Enter lbs: '))
         kg = round(lbs /  2.205,2)
         print(f'{lbs} lbs ≈ {kg} kg')
+        print('Result is rounded to two demicals')
     else:
         print(f'there is no {choice} in choices')
 
