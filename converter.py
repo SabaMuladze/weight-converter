@@ -4,12 +4,12 @@ def convert():
     choice = input('select 1 or 2: ')
     if choice == '1':
         kg = float(input('Enter kg: '))
-        lbs = kg * 2.2
+        lbs = kg *  2.205
         print(f'{kg} kg = {lbs} lbs')
 
     elif choice == '2':
         lbs = float(input('Enter lbs: '))
-        kg = lbs / 2.2
+        kg = lbs /  2.205
         print(f'{lbs} lbs = {kg} kg')
     else:
         print(f'there is no {choice} in choices')
